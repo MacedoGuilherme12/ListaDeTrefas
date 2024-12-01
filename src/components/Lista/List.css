@@ -1,0 +1,29 @@
+.Tarefa{
+  margin-top: 30px;
+}
+
+.Tarefa li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.Tarefa li:hover{
+  background:#51c5de;
+}
+.Tarefa .edit{
+  margin-right: 15px;
+  color: #51c5de;
+}
+.Tarefa .delete{
+  margin-right: 15px;
+  color: #f04c64;
+}
+.Tarefa li:hover .edit,
+.Tarefa li:hover .delete{
+  color: #000;
+}
+.Tarefa li span{
+  display: flex;
+  align-items: center;
+}
